@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Merriweather;
+  src: url('Merriweather/fonts/ttfs/Merriweather-Black.ttf');
+}
+@font-face {
+  font-family: HeptaSlab;
+  src: url('HeptaSlab/fonts/HeptaSlab.ttf');
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Merriweather;
+}
+/*home*/
+
+.navbar{
+  background-color: black;
+ 
+}
+.navbar-brand img{/*top right bottom left*/
+  margin: -15px 0 -26px -14px;
+  height: 50px;
+  width: 60px;
+}
+li{
+  font-size: 19px;
+  /*color: red;*/
+}
+a{
+  color: white;
+}
+div{
+  font-size: 17px;
+}
+.section img{
+  height: 600px;
+  width: 640px;
+  display: block;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: 50px auto 0 auto;
+}
+/*button{
+      background-color: white;
+    }*/
+/*home*/
+
+/*about*/
+.main{
+  font-size: 20px;
+  text-align: justify;
+  /*color: black;*/
+  background-color: transparent;
+  width: 50%;
+  margin-left: 40%;
+  margin-top: -30%;
+  font-style: bold;
+  font-family: HeptaSlab;
+}
+.img-rounded{
+      margin-top: 75px;
+      
+    }
+/*about*/
+
+/*artist*/
+.container{
+  margin-top: 70px;
+}
+/*artist*/
+
+/*.thumbnail img{
+  height: 50%;
+}*/
+
+
+
+/*login*/
+
+.log,.sign{
+      width: 30%;
+      margin: 75px auto; 
+      background-color: white;
+      box-shadow: 10px 10px 5px grey;
+      
+    }
+  
+    h3{
+      text-align: center;
+      font-style: italic;
+      font-family: forte;
+    }
+    .btn.btn-primary {     
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      font-size: 17px;
+      /*margin-left: 25%;*/
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+    /*signup*/
+    .form-group.input-group,.form-group{
+        width: 336px;
+       margin-left: 35px;
+       font-size: 17px; 
+
+    }
+    /*.form-control{
+      height: 50px;
+    }*/
+      
+
+/*login*/
+
+/*button{
+  font-size: 17px;
+}*/
+.md-textarea.form-control{
+      width: 336px;
+      margin-left: 35px;
+}
+th{
+  background-color: #bf4a0b;
+  /*#461f94;*/
+  color: white;
+
+}
+h4{
+  text-align: center;
+}
